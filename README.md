@@ -4,7 +4,7 @@ Meu segundo projeto desenvolvido durante o curso Iniciante em Programação T6 -
 não foi fácil e sei que ainda tenho alguns bugs a serem corrigidos, mas estou feliz por ter conseguido esse resultado com apenas dois meses na área de programação 🚀
 
 
-Deploy: 
+Deploy: https://portfolio-joana-tavares.vercel.app/index.html
 
 
 <h2>Preview 👀 </h2>
