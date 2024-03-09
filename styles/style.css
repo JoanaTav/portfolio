@@ -125,7 +125,7 @@ body {
 }
 
 .rodape {
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     color: var(--cor-secundaria);
@@ -170,4 +170,9 @@ body {
         border-radius: 40px;
         max-width: 300px;
     }
+
+     .rodape {
+        position: fixed;
+    }    
+    
 }
