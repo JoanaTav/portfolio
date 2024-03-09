@@ -54,6 +54,10 @@ body {
     gap: 40px;
 }
 
+ .apresentacao__conteudo > ul {
+    margin-left: 1rem;
+}
+
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
@@ -67,6 +71,7 @@ body {
 }
 
 .apresentacao__conteudo__texto {
+    line-break: anywhere;
     font-size: 1.3rem;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
@@ -120,7 +125,7 @@ body {
 }
 
 .rodape {
-    position: static;
+    position: fixed;
     bottom: 0;
     width: 100%;
     color: var(--cor-secundaria);
@@ -138,6 +143,7 @@ body {
     }
 
     .cabecalho__menu {
+        flex-wrap: wrap;
         justify-content: center;
         flex-direction: row;
         gap: 20px;
@@ -146,6 +152,7 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
+        padding-bottom: 20%;
     }
 
     .apresentacao__conteudo {
